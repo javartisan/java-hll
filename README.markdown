@@ -1,4 +1,4 @@
-java-hll
+java-hll(一个非精确的高效去重计数算法)
 ========
 
 A Java implementation of [HyperLogLog](http://algo.inria.fr/flajolet/Publications/FlFuGaMe07.pdf) whose goal is to be [storage-compatible](https://github.com/aggregateknowledge/hll-storage-spec) with other similar offerings from [Aggregate Knowledge](http://blog.aggregateknowledge.com/).
