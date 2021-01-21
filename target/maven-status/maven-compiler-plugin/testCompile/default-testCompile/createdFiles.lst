@@ -1,0 +1,13 @@
+net/agkn/hll/serialization/BigEndianAscendingWordDeserializerTest.class
+net/agkn/hll/IntegrationTestGenerator$1.class
+net/agkn/hll/util/HLLUtilTest.class
+net/agkn/hll/ExplicitHLLTest.class
+net/agkn/hll/SparseHLLTest.class
+net/agkn/hll/ProbabilisticTestUtil.class
+net/agkn/hll/IntegrationTestGenerator$TestType.class
+net/agkn/hll/IntegrationTestGenerator.class
+net/agkn/hll/FullHLLTest.class
+net/agkn/hll/util/BitVectorTest.class
+net/agkn/hll/serialization/HLLSerializationTest$1.class
+net/agkn/hll/serialization/HLLSerializationTest.class
+net/agkn/hll/serialization/BigEndianAscendingWordSerializerTest.class

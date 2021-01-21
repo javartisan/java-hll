@@ -1,0 +1,96 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite">
+    <groups>
+    </groups>
+    <test name="Command line test">
+      <class name="net.agkn.hll.FullHLLTest">
+        <test-method status="PASS" signature="smallRangeSmokeTest()" name="smallRangeSmokeTest" duration-ms="1" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="toFromBytesTest()" name="toFromBytesTest" duration-ms="5" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="normalRangeSmokeTest()" name="normalRangeSmokeTest" duration-ms="1" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="registerValueTest()" name="registerValueTest" duration-ms="0" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="largeRangeSmokeTest()" name="largeRangeSmokeTest" duration-ms="3" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="clearTest()" name="clearTest" duration-ms="0" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+      </class>
+      <class name="net.agkn.hll.serialization.BigEndianAscendingWordDeserializerTest">
+        <test-method status="PASS" signature="constructorErrorTest()" name="constructorErrorTest" duration-ms="0" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="ascendingSmokeTest()" name="ascendingSmokeTest" duration-ms="246" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="randomSmokeTest()" name="randomSmokeTest" duration-ms="440" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="smokeTest64BitWord()" name="smokeTest64BitWord" duration-ms="1" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+      </class>
+      <class name="net.agkn.hll.ExplicitHLLTest">
+        <test-method status="PASS" signature="unionTest()" name="unionTest" duration-ms="1" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="addBasicTest()" name="addBasicTest" duration-ms="0" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="clearTest()" name="clearTest" duration-ms="1" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="toFromBytesTest()" name="toFromBytesTest" duration-ms="28" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="promotionTest()" name="promotionTest" duration-ms="4" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="randomValuesTest()" name="randomValuesTest" duration-ms="4" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+      </class>
+      <class name="net.agkn.hll.SparseHLLTest">
+        <test-method status="PASS" signature="randomValuesTest()" name="randomValuesTest" duration-ms="68" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="smallRangeSmokeTest()" name="smallRangeSmokeTest" duration-ms="1" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="addTest()" name="addTest" duration-ms="1" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="toFromBytesTest()" name="toFromBytesTest" duration-ms="9" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="clearTest()" name="clearTest" duration-ms="0" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="unionTest()" name="unionTest" duration-ms="1" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="normalRangeSmokeTest()" name="normalRangeSmokeTest" duration-ms="0" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="largeRangeSmokeTest()" name="largeRangeSmokeTest" duration-ms="2" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+      </class>
+      <class name="net.agkn.hll.util.BitVectorTest">
+        <test-method status="PASS" signature="setMaxRegisterTest()" name="setMaxRegisterTest" duration-ms="0" started-at="2021-01-21T21:52:47Z" finished-at="2021-01-21T21:52:47Z">
+        </test-method>
+        <test-method status="PASS" signature="getSetRegisterTest()" name="getSetRegisterTest" duration-ms="0" started-at="2021-01-21T21:52:47Z" finished-at="2021-01-21T21:52:47Z">
+        </test-method>
+        <test-method status="PASS" signature="registerIteratorTest()" name="registerIteratorTest" duration-ms="21" started-at="2021-01-21T21:52:47Z" finished-at="2021-01-21T21:52:47Z">
+        </test-method>
+        <test-method status="PASS" signature="fillTest()" name="fillTest" duration-ms="0" started-at="2021-01-21T21:52:47Z" finished-at="2021-01-21T21:52:47Z">
+        </test-method>
+      </class>
+      <class name="net.agkn.hll.util.HLLUtilTest">
+        <test-method status="PASS" signature="largeEstimatorCutoffTest()" name="largeEstimatorCutoffTest" duration-ms="0" started-at="2021-01-21T21:52:47Z" finished-at="2021-01-21T21:52:47Z">
+        </test-method>
+      </class>
+      <class name="net.agkn.hll.serialization.BigEndianAscendingWordSerializerTest">
+        <test-method status="PASS" signature="smokeTestSparseParams()" name="smokeTestSparseParams" duration-ms="1" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="constructorErrorTest()" name="constructorErrorTest" duration-ms="0" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="smokeTestProbabilisticParams()" name="smokeTestProbabilisticParams" duration-ms="0" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="smokeTestExplicitParams()" name="smokeTestExplicitParams" duration-ms="0" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+        <test-method status="PASS" signature="earlyGetBytesTest()" name="earlyGetBytesTest" duration-ms="0" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:36Z">
+        </test-method>
+      </class>
+      <class name="net.agkn.hll.serialization.HLLSerializationTest">
+        <test-method status="PASS" signature="serializationSmokeTest()" name="serializationSmokeTest" duration-ms="10520" started-at="2021-01-21T21:52:36Z" finished-at="2021-01-21T21:52:47Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

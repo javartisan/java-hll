@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">35</td><td class="numi">35</td><td class="numi">0</td><td class="numi">0</td><td class="numi">11.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="6">net.agkn.hll.ExplicitHLLTest<td><a href="#m1">addBasicTest</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m2">clearTest</a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m3">promotionTest</a></td><td class="numi">1</td><td class="numi">4</td></tr><tr class="passedodd"><td><a href="#m4">randomValuesTest</a></td><td class="numi">1</td><td class="numi">4</td></tr><tr class="passedodd"><td><a href="#m5">toFromBytesTest</a></td><td class="numi">1</td><td class="numi">28</td></tr><tr class="passedodd"><td><a href="#m6">unionTest</a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="6">net.agkn.hll.FullHLLTest<td><a href="#m7">clearTest</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m8">largeRangeSmokeTest</a></td><td class="numi">1</td><td class="numi">3</td></tr><tr class="passedeven"><td><a href="#m9">normalRangeSmokeTest</a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m10">registerValueTest</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m11">smallRangeSmokeTest</a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m12">toFromBytesTest</a></td><td class="numi">1</td><td class="numi">5</td></tr>
+<tr class="passedodd"><td rowspan="8">net.agkn.hll.SparseHLLTest<td><a href="#m13">addTest</a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m14">clearTest</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m15">largeRangeSmokeTest</a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m16">normalRangeSmokeTest</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m17">randomValuesTest</a></td><td class="numi">1</td><td class="numi">68</td></tr><tr class="passedodd"><td><a href="#m18">smallRangeSmokeTest</a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m19">toFromBytesTest</a></td><td class="numi">1</td><td class="numi">9</td></tr><tr class="passedodd"><td><a href="#m20">unionTest</a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="4">net.agkn.hll.serialization.BigEndianAscendingWordDeserializerTest<td><a href="#m21">ascendingSmokeTest</a></td><td class="numi">1</td><td class="numi">246</td></tr><tr class="passedeven"><td><a href="#m22">constructorErrorTest</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m23">randomSmokeTest</a></td><td class="numi">1</td><td class="numi">440</td></tr><tr class="passedeven"><td><a href="#m24">smokeTest64BitWord</a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="5">net.agkn.hll.serialization.BigEndianAscendingWordSerializerTest<td><a href="#m25">constructorErrorTest</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m26">earlyGetBytesTest</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m27">smokeTestExplicitParams</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m28">smokeTestProbabilisticParams</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m29">smokeTestSparseParams</a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="1">net.agkn.hll.serialization.HLLSerializationTest<td><a href="#m30">serializationSmokeTest</a></td><td class="numi">1</td><td class="numi">10520</td></tr>
+<tr class="passedodd"><td rowspan="4">net.agkn.hll.util.BitVectorTest<td><a href="#m31">fillTest</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m32">getSetRegisterTest</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m33">registerIteratorTest</a></td><td class="numi">1</td><td class="numi">21</td></tr><tr class="passedodd"><td><a href="#m34">setMaxRegisterTest</a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">net.agkn.hll.util.HLLUtilTest<td><a href="#m35">largeEstimatorCutoffTest</a></td><td class="numi">1</td><td class="numi">0</td></tr>
+</table>
+<h1>Command line test</h1>
+<a id="m1"></a><h2>net.agkn.hll.ExplicitHLLTest:addBasicTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>net.agkn.hll.ExplicitHLLTest:clearTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>net.agkn.hll.ExplicitHLLTest:promotionTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>net.agkn.hll.ExplicitHLLTest:randomValuesTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>net.agkn.hll.ExplicitHLLTest:toFromBytesTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>net.agkn.hll.ExplicitHLLTest:unionTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>net.agkn.hll.FullHLLTest:clearTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>net.agkn.hll.FullHLLTest:largeRangeSmokeTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>net.agkn.hll.FullHLLTest:normalRangeSmokeTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>net.agkn.hll.FullHLLTest:registerValueTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>net.agkn.hll.FullHLLTest:smallRangeSmokeTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>net.agkn.hll.FullHLLTest:toFromBytesTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>net.agkn.hll.SparseHLLTest:addTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>net.agkn.hll.SparseHLLTest:clearTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m15"></a><h2>net.agkn.hll.SparseHLLTest:largeRangeSmokeTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m16"></a><h2>net.agkn.hll.SparseHLLTest:normalRangeSmokeTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m17"></a><h2>net.agkn.hll.SparseHLLTest:randomValuesTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m18"></a><h2>net.agkn.hll.SparseHLLTest:smallRangeSmokeTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m19"></a><h2>net.agkn.hll.SparseHLLTest:toFromBytesTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m20"></a><h2>net.agkn.hll.SparseHLLTest:unionTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m21"></a><h2>net.agkn.hll.serialization.BigEndianAscendingWordDeserializerTest:ascendingSmokeTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m22"></a><h2>net.agkn.hll.serialization.BigEndianAscendingWordDeserializerTest:constructorErrorTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m23"></a><h2>net.agkn.hll.serialization.BigEndianAscendingWordDeserializerTest:randomSmokeTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m24"></a><h2>net.agkn.hll.serialization.BigEndianAscendingWordDeserializerTest:smokeTest64BitWord</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m25"></a><h2>net.agkn.hll.serialization.BigEndianAscendingWordSerializerTest:constructorErrorTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m26"></a><h2>net.agkn.hll.serialization.BigEndianAscendingWordSerializerTest:earlyGetBytesTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m27"></a><h2>net.agkn.hll.serialization.BigEndianAscendingWordSerializerTest:smokeTestExplicitParams</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m28"></a><h2>net.agkn.hll.serialization.BigEndianAscendingWordSerializerTest:smokeTestProbabilisticParams</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m29"></a><h2>net.agkn.hll.serialization.BigEndianAscendingWordSerializerTest:smokeTestSparseParams</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m30"></a><h2>net.agkn.hll.serialization.HLLSerializationTest:serializationSmokeTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m31"></a><h2>net.agkn.hll.util.BitVectorTest:fillTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m32"></a><h2>net.agkn.hll.util.BitVectorTest:getSetRegisterTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m33"></a><h2>net.agkn.hll.util.BitVectorTest:registerIteratorTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m34"></a><h2>net.agkn.hll.util.BitVectorTest:setMaxRegisterTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m35"></a><h2>net.agkn.hll.util.HLLUtilTest:largeEstimatorCutoffTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
